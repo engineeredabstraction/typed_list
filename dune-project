@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github smuenzel/typed_list))
+ (github engineeredabstraction/typed_list))
 
 (authors "Stefan Muenzel <source@s.muenzel.net>")
 

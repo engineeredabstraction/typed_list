@@ -6,8 +6,8 @@ maintainer: ["Stefan Muenzel <source@s.muenzel.net>"]
 authors: ["Stefan Muenzel <source@s.muenzel.net>"]
 license: "MPL-2.0"
 tags: ["typed_list"]
-homepage: "https://github.com/smuenzel/typed_list"
-bug-reports: "https://github.com/smuenzel/typed_list/issues"
+homepage: "https://github.com/engineeredabstraction/typed_list"
+bug-reports: "https://github.com/engineeredabstraction/typed_list/issues"
 depends: [
   "dune" {>= "3.8"}
   "base"
@@ -30,4 +30,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/smuenzel/typed_list.git"
+dev-repo: "git+https://github.com/engineeredabstraction/typed_list.git"
