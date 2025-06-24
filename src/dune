@@ -1,7 +1,7 @@
 (library
   (name typed_list)
   (public_name typed_list)
-  (libraries core higher_kinded)
+  (libraries base higher_kinded)
   (inline_tests)
   (preprocess (pps ppx_expect ppx_jane))
   )

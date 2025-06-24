@@ -1,4 +1,4 @@
-open! Core
+open! Base
 
 include Typed_list_intf
 
@@ -69,7 +69,7 @@ module Lambda_higher = struct
         | [] -> []
         | x :: xs ->
           let x = f i x in
-          x :: mapi_internal (succ i) { f } xs
+          x :: mapi_internal (Int.succ i) { f } xs
 
   let mapi f t = mapi_internal 0 f t
 

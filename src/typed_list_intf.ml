@@ -1,5 +1,4 @@
-open! Core
-
+open! Base
 
 module type Pack_inner = sig
   type raw

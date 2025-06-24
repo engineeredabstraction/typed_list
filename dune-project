@@ -7,10 +7,21 @@
 (source
  (github smuenzel/typed_list))
 
-(authors "Stefan Muenzel")
+(authors "Stefan Muenzel <source@s.muenzel.net>")
 
-(maintainers "Stefan Muenzel")
+(maintainers "Stefan Muenzel <source@s.muenzel.net>")
 
 (license MPL-2.0)
 
-(documentation https://url/to/documentation)
+(package
+  (name     typed_list)
+  (synopsis "A list with type information")
+  (description "A list with phantom types")
+  (depends
+    dune
+    base
+    ppx_expect
+    ppx_jane
+    higher_kinded
+    )
+  (tags (typed_list)))
