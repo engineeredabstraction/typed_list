@@ -22,6 +22,6 @@
     base
     ppx_expect
     ppx_jane
-    higher_kinded
+    (higher_kinded (>= v0.17.0))
     )
   (tags (typed_list)))
