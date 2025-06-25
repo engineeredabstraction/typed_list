@@ -1,3 +1,7 @@
+(* SPDX-License-Identifier: MPL-2.0
+ * SPDX-FileCopyrightText: (c) 2023-2025 Stefan Muenzel
+ *)
+
 open! Base
 
 include Typed_list_intf
